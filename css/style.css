@@ -1,0 +1,216 @@
+/* FONT IMPORTS */
+@import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+
+/* HEADER STYLING */
+
+/*
+#logo-image {
+  float: left;
+  margin-top: 5px;
+  height: 55px;
+}
+
+#icons {
+  float: right;
+}
+
+#logo {
+  margin-top: 32px;
+  margin-left: 57px;
+}
+*/
+
+header {
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+}
+
+#logo-image {
+  width: 55px;
+  height: 55px;
+  margin-top: 3px;
+  margin-right: 5px;
+}
+
+#icons {
+  float: right;
+  margin-top: 20px;
+}
+
+#rss-icon {
+  margin-left: 10px;
+}
+
+#logo-motto-text {
+  margin-left: 5px;
+}
+
+#logo-text {
+  font-family: 'Yellowtail', cursive;
+  font-size: 45px;
+  margin-bottom: 0px;
+}
+
+#logo {
+  margin-right: 430px;
+}
+
+#logo-motto-text {
+  font-family: 'Abel', sans-serif;
+  font-size: 13px;
+  color: #777;
+  margin-top: 0px;
+}
+
+#top-horiz {
+  height: 15px;
+  background-image: url("/img/hr-img.png");
+  background-repeat: repeat;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 905px;
+}
+
+#title-section {
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+  margin-top: 70px;
+}
+
+#title-text {
+  margin-right: 570px;
+}
+
+#choco-pizza-text {
+  font-family: 'Oswald', sans-serif;
+  font-size: 45px;
+  margin-left: 10px;
+}
+
+#choco-pizza-img {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#posted-date-text {
+  font-family: 'Abel', sans-serif;
+  color: rgb(168, 168, 168);
+  margin-top: 10px;
+  margin-left: 12px;
+  font-size: 15px;
+}
+
+#print-text {
+  font-family: 'Abel', sans-serif;
+  color: rgb(168, 168, 168);
+  font-size: 15px;
+  margin-right: 13px;
+  margin-left: 2px;
+  margin-top: 50px;
+}
+
+#print-icon {
+  height: 13px;
+  margin-top: 52px;
+}
+
+.recipe-text {
+  font-family: 'Noto Serif', serif;
+  color: #666;
+  line-height: 25px;
+  margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 900px;
+  ;
+}
+
+.recipe-text p {
+  margin-top: 30px;
+  text-indent: 30px;
+}
+
+#ingred-section {
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#ingred-text {
+  column-count: 2;
+  font-family: 'Patrick Hand', cursive;
+  color: rgb(134, 133, 123);
+  position: absolute;
+  margin-top: 31px;
+  font-size: 30px;
+  line-height: 31px;
+}
+
+.strikethrough {
+  text-decoration: line-through;
+}
+
+#author-section {
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+}
+
+#author-img {
+  margin-left: 0px;
+  margin-right: 20px;
+}
+#author-name {
+  font-family: 'Noto Serif', serif;
+  color: #222;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+#author-section p {
+  font-family: 'Noto Serif', serif;
+  color: #666;
+  line-height: 25px;
+  margin-top: 15px;
+  width: 400px;
+  margin-right: 240px;
+}
+
+#share-button {
+  background-color: rgb(176, 85, 58);
+  font-family: 'Abel', sans-serif;
+  width: fit-content;
+  font-size: 18px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 35px;
+  padding-right: 35px;
+  color: white;
+  float:right;
+  margin-top: 30px;
+}
+
+#bottom-horiz {
+  height: 15px;
+  background-image: url("/img/hr-img.png");
+  background-repeat: repeat;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 905px;
+}
